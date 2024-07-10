@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Song Collection</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .song-item {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+  }
+  .cover {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  .info {
+    flex-grow: 1;
+  }
+  .audio-player {
+    text-align: right;
+  }
+  audio {
+    width: 300px;
+  }
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>My Song Collection</h1>
+  
+  <!-- Song 1 -->
+  <div class="song-item">
+    <img class="cover" src="path-to-cover-1.jpg" alt="Album Cover">
+    <div class="info">
+      <h2>Song Title 1</h2>
+      <p>Artist: Artist Name 1</p>
+      <p>Album: Album Name 1 (Year)</p>
+    </div>
+    <div class="audio-player">
+      <audio controls>
+        <source src="path-to-song-1.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+  
+  <!-- Song 2 -->
+  <div class="song-item">
+    <img class="cover" src="path-to-cover-2.jpg" alt="Album Cover">
+    <div class="info">
+      <h2>Song Title 2</h2>
+      <p>Artist: Artist Name 2</p>
+      <p>Album: Album Name 2 (Year)</p>
+    </div>
+    <div class="audio-player">
+      <audio controls>
+        <source src="path-to-song-2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
+  
+  <!-- Add more songs here -->
+  
+</div>
+
+</body>
+</html>
